@@ -2,6 +2,12 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
 
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -61,6 +67,10 @@ align-items: center;
 
 }
 
+.hamburger{
+    display: none;
+}
+
 #home{
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -85,6 +95,15 @@ align-items: center;
 
 } */
 
+/* html, body {
+    margin: 0;
+    height: 100%;
+}
+
+ .inter-font {
+    height: 100%; 
+ }   */
+
 .bg{
     /* background-color: rgba(119, 119, 119, 0); */
 
@@ -93,15 +112,14 @@ align-items: center;
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 
     /* background: rgb(0, 0, 0); */
- 
-   background: rgb(36, 35, 35);
 
+   /* background: rgb(36, 35, 35); */
 
-     
+   background: linear-gradient(to bottom,#000000,#434343,#000000);
 
-    
-    
-    
+   height: 100%;
+   /* width: 100%; */
+
 
 }
 
@@ -111,7 +129,7 @@ align-items: center;
 }
 
 .banner-left{
-    
+
     text-align: left;
     justify-content: left;
     /* border: 2px solid red; */
@@ -124,15 +142,17 @@ align-items: center;
     top: 199px; */
     margin-left: 200px;
 
-    
- 
+
+
 }
 
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
+
+
 }
 
 #first-image{
@@ -145,7 +165,7 @@ align-items: center;
     font-family: 'Miama', sans-serif;
     font-weight: 400;
     font-size: 4.87rem;
-                                                
+
 }
 
 
@@ -171,7 +191,7 @@ align-items: center;
 }
 
 .btn-secondary{
-   
+
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
     padding: 16px 40px 16px 40px;
@@ -199,7 +219,7 @@ top: 800.38px; */
 margin-left: -100px;
 margin-top: -170px;
 
-   
+
 }
 .circle {
     width: 40px;
@@ -216,7 +236,7 @@ margin-top: -170px;
     font-weight: bold;
     font-size: 1.5rem;
     font-style: normal;
-    
+
 }
 .text .subtitle {
     font-size: 1rem;
@@ -238,7 +258,7 @@ margin-top: -170px;
     border-radius: 12px;
     color: white;
     border: 0.76px solid rgba(255, 255, 255, 0.1);
-    
+
     width: 193px;
     height: 98px;
     margin-left: 250px;
@@ -251,3 +271,86 @@ margin-top: -170px;
     font-size: 2.5rem;
 }
 
+
+
+/* responsive */
+
+@media screen and (max-width: 576px){
+
+    .nav-links{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+        width: 285px;
+        
+
+    }
+
+    .banner-description{
+     font-size: 1rem;
+     width: 274px;
+    height: 96px;
+    }
+
+    .banner-left{
+        margin-left: 20px ;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .btn{
+        display: flex;
+
+    }
+
+    .btn-primary, .btn-secondary{
+        width: 169px;
+        /* font-size: 1rem; */
+       
+
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #first-image{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .top-container{
+        position: relative;
+        margin-left: 200px;
+        width: 130px;
+
+    }
+
+    .top-container title2{
+         font-size: 1.75rem;
+    }
+
+    .top-container .subtitle{
+        font-size: 0.75rem;
+    }
+
+    .bottom-container{
+        margin-left: 0;
+        width: 130px;
+    }
+
+
+
+}
