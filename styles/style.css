@@ -315,12 +315,24 @@ margin-top: -170px;
 
     .btn{
         display: flex;
-
+      
+    }
+    .btn a{
+        text-decoration: none;
     }
 
     .btn-primary, .btn-secondary{
         width: 169px;
-        /* font-size: 1rem; */
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 20px 40px 20px 40px;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+        
        
 
     }
@@ -354,7 +366,7 @@ margin-top: -170px;
 
     .bottom-container{
         margin-left: 0;
-        width: 130px;
+        width: 140px;
     }
 
 
