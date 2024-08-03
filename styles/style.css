@@ -495,6 +495,7 @@ border-radius: 18px;
     gap: 14px;
 
     margin-top: 90px;
+    margin-bottom: 88px;
      
 
 }
@@ -518,20 +519,180 @@ border-radius: 18px;
     
 }
 
+/* section5 styles */
+.section5-container{
+    
+    background: rgb(34, 34, 34);
+    /* width: 1440px; */
+
+height: 487px;
+background-size: cover;
+/* margin: 0 auto; */
+display: flex;
+justify-content: space-between;
+/* justify-content: center; */
+/* align-items: center; */
+padding: 80px;
+/* gap: 50px; */
 
 
 
+/* border-radius: 18px;
+    background: rgb(34, 34, 34);
+    background-size: cover;
+    overflow: hidden;
+    width: 1060px;
+    height: 371px; 
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+.section5-left-container{
+     width: 700px; 
+    /* height: 450px;  */
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.section5-left-container h3{
+    font-size: 1.75rem;
+font-weight: 900;
+}
 
 
 
+table {
+    border-collapse: collapse;
+    width: 310px;
+height: 216px;
+    
+}
+th{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+td,
+th {
+    /* border: 1px solid black; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+}
+
+.form{
+    gap: 14px;
+    
+}
+.section5-right-container{
+    /* border: 2px solid red; */
+}
+
+.section5-right-container h3{
+    font-size: 1.75rem;
+font-weight: 900;
+}
+
+.row-1, .row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin: 1rem 0;
+}
+
+.row-1 label{
+    border-radius: 8px;
+
+background-color: rgba(255, 255, 255, 0.1);
+padding: 12px 40px 12px 20px;
+}
+
+.row-1 label input {
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.6);;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.row-1 label input::placeholder {
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.row-2 label{
+    border-radius: 8px;
+
+background-color: rgba(255, 255, 255, 0.1);
+padding: 12px 40px 12px 20px;
+}
+
+.row-2 label input{
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    appearance: none;
+}
+.row-2 label input::placeholder {
+    color: rgba(255, 255, 255, 0.6); 
+}
 
 
+   
+.row-2 select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    color:  rgba(255, 255, 255, 0.6);
+    border: none;
+    font-size: 1rem;
+}
+
+.row-2 select option{
+    color:  black;
+}
+
+.row-2 select option::placeholder{
+    color: rgba(255, 255, 255, 0.6); 
+}
 
 
+.row-3 select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    color:  rgba(255, 255, 255, 0.6);
+    border: none;
+    font-size: 1rem;
+    width: 100%
+}
 
+.row-3 select option{
+    color:  black;
+}
 
+.row-3 select option::placeholder{
+    color: rgba(255, 255, 255, 0.6); 
+}
 
-
+.row-4 button{
+    margin-top: 34px;
+}
 
 
 
