@@ -704,6 +704,42 @@ padding: 12px 40px 12px 20px;
     margin-top: 34px;
 }
 
+/* section 6 styles */
+
+.section6-container{
+   
+    
+     width: 671px;
+    height: 120px;
+
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+
+    margin-top: 90px;
+    margin-bottom: 88px;
+      
+
+}
+
+.section6-content{
+    
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.section6-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    
+    
+}
 
 
 
@@ -970,6 +1006,41 @@ padding: 12px 40px 12px 20px;
      .section5-right-container form{
         margin-top: 30px;
      }
+
+
+      /* section 6 responsive */
+
+   .section6-container{
+    /* width: 100%;
+    height: 100%; */
+   
+
+  /* margin: 0 auto; */
+
+        display: flex;
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+
+      width: 309px;
+      height: 124px;
+
+      
+    
+   }
+    .section6-content{
+        margin: 0 auto;
+        
+        gap: 30px;
+        padding: 40px;
+       
+       
+    }
+    .section6-content h1{
+        font-size: 2rem;
+    }
     
 
 
