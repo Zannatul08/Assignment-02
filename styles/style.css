@@ -98,6 +98,8 @@ align-items: center;
     height: 38px;
 
     padding: 8px 20px 8px 20px;
+    font-size: 1.125rem;
+   font-weight: 600;
 }
  .title{
  font-weight: 800;
