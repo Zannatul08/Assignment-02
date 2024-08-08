@@ -1355,6 +1355,29 @@ font-weight: 400;
     }
 
 
+    /* section 9  */
+     .container-row-1{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left; */
+        display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+    } 
+    .container1 p{
+        /* border: 2px solid red; */
+        /* width: 100%;
+        height: auto; */
+        width: 317px;
+height: 96px;
+    }
+
+   
+
+
 
  
 
