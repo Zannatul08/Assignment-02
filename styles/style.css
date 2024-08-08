@@ -14,7 +14,7 @@
 
 body{
     border: 2px dashed green;
-}  */
+}   */
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -1367,6 +1367,10 @@ justify-content: flex-start;
 align-items: flex-start;
 padding: 0px;
     } 
+
+    .container1{
+      width: fit-content;
+    }
     .container1 p{
         /* border: 2px solid red; */
         /* width: 100%;
