@@ -275,7 +275,7 @@ margin-top: -170px;
 .circle {
     width: 40px;
     height: 40px;
-    background-color: #e34f26; /* Orange color */
+    background-color: #e34f26; 
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -408,10 +408,10 @@ margin-top: -170px;
     background-size: cover;
     overflow: hidden;
     width: 1060px;
-    height: 371px; /*changed from 371 px  */ 
+    height: 371px; 
     margin: 0 auto;
     margin-top: 80px;
-    padding: 20px; /* changed */
+    padding: 20px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -452,7 +452,7 @@ height: auto;
 /* margin-top: 0px; */
 
 
-/* Full width for larger screens */
+
 overflow-wrap: break-word;
 word-wrap: break-word;
 white-space: normal;
@@ -477,7 +477,7 @@ background-position: center; */
  object-fit: none;
 object-position: 66% 33%;
 /*
-transform: scale(1.5); /* Zoom in the image */
+transform: scale(1.5); 
     /* transform-origin: 66% 33%;  */
 
     /* object-fit: cover; */
@@ -553,18 +553,7 @@ padding: 80px;
 
 
 
-/* border-radius: 18px;
-    background: rgb(34, 34, 34);
-    background-size: cover;
-    overflow: hidden;
-    width: 1060px;
-    height: 371px; 
-    margin: 0 auto;
-    margin-top: 80px;
-    padding: 20px; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center; */
+
 }
 
 .section5-left-container{
@@ -947,6 +936,7 @@ font-weight: 400;
     margin-top: 0;
     font-size: 4.375rem;
     font-weight: 800;
+    font-style: italic;
      
 }
 .container2 p{
