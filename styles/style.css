@@ -1231,6 +1231,7 @@ font-weight: 400;
      .section5-right-container{
         width: 354px;
          height: 395px;
+        
      }
 
      .section5-right-container form{
@@ -1291,6 +1292,16 @@ font-weight: 400;
         /* align-items: center; */
        
         padding: 20px;
+    }
+
+    .image-1{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .image-4{
+        position: absolute;
+        visibility: hidden;
     }
 
 
