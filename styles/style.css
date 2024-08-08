@@ -126,6 +126,7 @@ width: 100%;
  html, body {
     margin: 0;
     height: 100%;
+    background-color: #000;
 
     /* padding: 0; */
 }
@@ -328,7 +329,7 @@ margin-top: -170px;
    margin-top: 0;
    /* width: 1440px; */
 
-    height: 4650px;
+    height: auto;
     background: rgb(0, 0, 0);
     background-size: cover;
     overflow: hidden;
@@ -876,7 +877,98 @@ margin-bottom: 5px;
     font-weight: 900;
 }
 
+/* section9 styles */
+.section9-container{
+    width: auto;
+    height: auto;
+    /* border-radius: 18px; */
+    background: rgba(255, 255, 255, 0.1);
+    /* background-size: cover; */
+    background-size: cover;
+    /* border: 2px solid red; */
+    /* margin: 30px; */
+  
+    padding: 40px;
+    
+    margin-top: 80px;
+    
+    
+}
+
+.container1{
+    width: 443px;
+    height: auto;
+    padding: 0px;
+    /* border-radius: 2px solid white; */
+    /* border: 2px solid red; */
+   
+   
+    
+
+}
+
+
+.container-row-1{
+    /* display: grid;
+     grid-template-columns: 1fr 1fr 1fr;  */
+     display: flex;
+      justify-content: space-evenly; 
+      /* align-items: center; */
+      align-items: center;
+     /* margin: 0 auto;
+     justify-content: center;
+     align-items: center; */
+     margin-bottom: 30px;
+     /* border: 2px solid red; */
+     /* margin: 0 auto;
+     padding: 0; */
+   
+
+  
+}
+
+.container4 hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    
+}
+
+.container4{
+    text-align: center;
+    
+}
+.container4 p{
+    font-size: 20px;
+font-weight: 400;
+}
+
+.container1 h1{
+    margin-top: 0;
+    font-size: 4.375rem;
+    font-weight: 800;
+     
+}
+.container2 p{
+    font-size: 1.4rem;
+font-weight: 400;
+}
+.container3 p{
+    font-size: 1.4rem;
+font-weight: 400;
+}
+
+
+
+.container2 h3{
+    font-size: 2rem;
+   font-weight: 700;
+}
+.container3 h3{
+    font-size: 2rem;
+   font-weight: 700;
+}
+
 /* responsive */
+
 
 @media screen and (max-width: 576px){
 
